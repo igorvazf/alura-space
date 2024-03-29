@@ -25,3 +25,6 @@ executar o projeto:
 
 criar app (um projeto pode ter varios apps):
     python manage.py startapp nome_do_app
+
+endereçar arquivos estaticos para o django:
+    python manage.py collectstatic
