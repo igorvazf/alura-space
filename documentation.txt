@@ -5,6 +5,9 @@ ativar venv:
 desativar venv:
     deactivate
 
+bonus - instalar requirements:
+    pip install -r /path/to/requirements.txt
+
 instalar django:
     pip install django
 
@@ -14,8 +17,11 @@ criar requirements:
 criar projeto django:
     django-admin startproject setup .
 
+gerenciador variaveis de ambiente:
+    pip install python-dotenv
+
 executar o projeto:
     python manage.py runserver
 
-gerenciador variaveis de ambiente:
-    pip install python-dotenv
+criar app (um projeto pode ter varios apps):
+    python manage.py startapp nome_do_app
