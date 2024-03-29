@@ -1,0 +1,21 @@
+ativar venv:
+    venv\Scripts\Activate
+    obs - usar cmd, e nao powershell
+
+desativar venv:
+    deactivate
+
+instalar django:
+    pip install django
+
+criar requirements:
+    pip freeze > requirements.txt
+
+criar projeto django:
+    django-admin startproject setup .
+
+executar o projeto:
+    python manage.py runserver
+
+gerenciador variaveis de ambiente:
+    pip install python-dotenv
